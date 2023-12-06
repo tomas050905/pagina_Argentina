@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+    height: 150vh !important;
+    background: url(img/equipo.jfif) no-repeat center;
+    background-size: cover;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #35b7f3;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+
+.logo {
+    margin-left: 30px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #3f3f3f;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+.title {
+    
+  
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color:  #f5f5f5;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    padding: 0 100px;
+   
+}
+
+h2{
+    text-align: center;
+    justify-content: center;
+}
+#footer {
+    position: fixed;
+    bottom: -100px; /* Mueve el footer fuera de la pantalla inicialmente */
+    left: 0;
+    width: 100%;
+    background-color: rgb(189, 162, 45);
+    color:rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px 0;
+    transition: bottom 0.30s ease;
+    font-size: 15px;
+    border-radius: 10px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 1.2);
+    transform: perspective(300px) rotateX(15deg);
+
+}
+#mail{
+    color: #000000;
+}
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #153988;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background: #153988;
+    
+}
+
+.btn:hover {
+    background: none;
+    
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+
+.contenido {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+    padding: 30px;
+    background: #000000
+}
+
+
+.nosotros {
+    background: #171717;
+}
+
+.proyectos {
+    background: url(img/juego.png\dino.png ) #33333327 no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+
+.contacto {
+    padding-top: 20px;
+    background: #41414131;
+    padding-bottom: 0;
+}
+
+
+@media (max-width: 768px) {
+
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .sau {
+        height: 100vh;
+    }
+
+    .navbar {
+        display: none;
+    }
+   
+    
+}
